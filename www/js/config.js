@@ -1,20 +1,21 @@
 
 var visConfig = {
     widgetSets: [
-        "basic",
-        {name: "metro",       depends: ["basic"]},
-        {name: "fancyswitch", depends: ["basic"]},
-        "tabs",
-        "jqplot",
-        "timeAndWeather",
-        {name: "jqui",        depends: ["basic"]},
-        {name: "jqui-mfd",    depends: ["basic", "jqui"]},
-        "weather-adapter",
-        "RGraph",
-        "hqWidgets",
+        //"basic",
+        //{name: "metro",       depends: ["basic"]},
+        //{namqe: "fancyswitch", depends: ["basic"]},
+        //"tabs",
+        //"jqplot",
+        //"timeAndWeather",
+        //{name: "jqui",        depends: ["basic"]},
+        //{name: "jqui-mfd",    depends: ["basic", "jqui"]},
+        //"weather-adapter",
+        //"RGraph",
+        //"hqWidgets",
         "plumb",
-        "bars",
-        {name: "lcars",       depends: ["basic"]}
+        "alarm"
+        //"bars",
+        //{name: "lcars",       depends: ["basic"]}
         //"vkb"
         //"table"
         /*

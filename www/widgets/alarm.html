@@ -1,0 +1,68 @@
+
+
+<script type="text/javascript" >
+    "use strict";
+
+    if (vis.editMode) {
+        $.extend(true, systemDictionary, {
+
+        });
+
+    }
+
+    vis.binds.alarm = {
+        liste: function(el, data){
+         var $this = $(el);
+
+
+            $this.append('\
+    <table style="border-spacing: 0; width: 100%; height: 100%" class="ui-widget-content">\
+            <tr class="ui-widget-header" style="height: 20px">\
+            <th width="50px">ID</th>\
+            <th>Text</th>\
+            <th width="100px">Time</th>\
+            <th width="50px">quit</th>\
+            </tr>\
+            <tr style="height: 20px">\
+            <td>Miljöh</td>\
+            <td>Kiez</td>\
+            <td>Bierdampf</td>\
+            </tr>\
+            <tr style="height: 20px">\
+            <td>Buletten</td>\
+            <td>Frikadellen</td>\
+            <td>Fleischpflanzerl</td>\
+            </tr>\
+            \
+             <tr >\
+            <td></td>\
+            <td></td>\
+            <td></td>\
+            </tr>\
+            </table>\
+            ')
+        },
+    }
+</script>
+
+
+<script id="tplPlump_tank_ent_e"
+type="text/ejs"
+class="vis-tpl"
+data-vis-prev=''
+data-vis-set="alarm"
+data-vis-beta="true"
+data-vis-type="Liste"
+data-vis-name="Liste"
+data-vis-attrs="">
+<div class="vis-widget <%== this.data.attr('class') %> " style="min-width: 140px; min-height: 270px;" id="<%= this.data.attr('wid') %>">
+<div class="vis-widget-body" <%= (el) -> vis.binds.alarm.liste(el, data) %>>
+
+</div>
+</div>
+</div>
+</script>
+
+
+
+
