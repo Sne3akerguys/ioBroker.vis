@@ -13,7 +13,7 @@ var visConfig = {
         //"RGraph",
         //"hqWidgets",
         "plumb",
-        "alarm"
+        "wwc"
         //"bars",
         //{name: "lcars",       depends: ["basic"]}
         //"vkb"
